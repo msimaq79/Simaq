@@ -1,1 +1,0 @@
-const nav=document.querySelector(".nav-links"),burger=document.querySelector(".burger"),links=nav.querySelectorAll("a");burger.addEventListener("click",()=>{nav.classList.toggle("nav-open"),burger.classList.toggle("toggle")}),links.forEach(e=>{e.addEventListener("click",()=>{nav.classList.toggle("nav-open"),burger.classList.toggle("toggle")})});
